@@ -114,7 +114,7 @@ MatchGame.flipCard = function($card, $game) {
 
 		if (winnerCounter === 8){
 			console.log('success!'),
-			document.getElementbyID('secret').style.display = 'block'
+			document.getElementById('secret').style.display = 'block'
 		};	
 
 	$game.data('flippedCards', []);
